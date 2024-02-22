@@ -8,7 +8,7 @@ class Car:
 
 class ElectricCar(Car):
     def __init__(self,brand,model,battery):
-        super.__init__(brand,model)
+        super().__init__(brand,model)
         self.battery = battery
     
     def battery_Cap(self):
@@ -17,6 +17,9 @@ class ElectricCar(Car):
 punch = Car("Tata","Punch")
 print(punch.brand)
 punch.carDetails()
+
+tasla = ElectricCar("tasla","class s","5000KWH")
+tasla.battery_Cap()
     
 
         
