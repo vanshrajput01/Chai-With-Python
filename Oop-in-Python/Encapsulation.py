@@ -14,9 +14,11 @@ class Car:
 harrier = Car("Tata","Harrier")
 print(harrier.model)
 
-print(harrier.brand) # Error 
+ # print(harrier.brand) # Error 
 
-print(harrier.__brand) # also give an Error
+# print(harrier.__brand) # also give an Error
+
+harrier.get_brand()
 
     
 
