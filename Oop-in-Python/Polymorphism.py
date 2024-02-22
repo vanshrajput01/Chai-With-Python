@@ -3,7 +3,7 @@ class Car:
         self.brand = brand
         self.model = model
 
-    def fuel_capacity(self):
+    def fuel_type(self):
         print(f"Postol & diesel")
 
 class ElectricCar(Car):
@@ -12,11 +12,11 @@ class ElectricCar(Car):
             self.battery = battery
 
 
-    def fuel_capacity(self):
+    def fuel_type(self):
         print(f"battery Capacity is {self.battery}.") 
 
 safari = Car("Tata","Safari")
-safari.fuel_capacity()
+safari.fuel_type()
 
 tasla = ElectricCar("Tasla","S Class","7000KWH")
-tasla.fuel_capacity()
+tasla.fuel_type()
