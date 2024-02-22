@@ -14,5 +14,9 @@ class Car:
 harrier = Car("Tata","Harrier")
 print(harrier.model)
 
+print(harrier.brand) # Error 
+
+print(harrier.__brand) # also give an Error
+
     
 
