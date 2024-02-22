@@ -10,3 +10,6 @@ student01 = Collage("Jack","Rones")
 print(student01.fname) 
 print(student01.lname)
 student01.studentDetails()
+
+
+
