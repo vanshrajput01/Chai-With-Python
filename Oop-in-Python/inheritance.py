@@ -98,6 +98,10 @@ print(manager.salary)
 eng = Engineer("maggi",27,500000,"Full Stack dev")
 print(eng.stream)
 
+intren01 = Intern("Rocks",20,6000,"6 Months")
+print(intren01.durationTime)
+
+
 
 
 
