@@ -7,8 +7,7 @@ class Car:
         print(f"Postol & diesel")
 
 class ElectricCar(Car):
-    def __init__(self):
-        def __init__(self,brand,model,battery):
+    def __init__(self,brand,model,battery):
             super().__init__(brand,model)
             self.battery = battery
 
@@ -20,3 +19,4 @@ safari = Car("Tata","Safari")
 safari.fuel_capacity()
 
 tasla = ElectricCar("Tasla","S Class","7000KWH")
+tasla.fuel_capacity()
