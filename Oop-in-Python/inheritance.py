@@ -19,6 +19,7 @@ print(punch.brand)
 punch.carDetails()
 
 tasla = ElectricCar("tasla","class s","5000KWH")
+print(tasla.model)
 tasla.battery_Cap()
     
 
