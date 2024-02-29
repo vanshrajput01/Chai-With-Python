@@ -6,12 +6,15 @@ class Person:
         self.lname = lname
         self.gender = gender
     
+
+    
 # Creating Object of Class
 
 p1 = Person("Jack","Pearo","male")
 p2 = Person("Jackey","chain","male")
 p3 = Person("raso","mile","Female")
 print(p1.hair_color)
+p2.hair_color = "Broun"
 print(p2.hair_color)
 print(p3.hair_color)
     
