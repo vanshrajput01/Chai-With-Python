@@ -11,4 +11,3 @@ class Person:
 # creating object of Person Class
 p1 = Person("Uncle","Tom",56)
 print(p1.firstname)
-print(p1.printname())
