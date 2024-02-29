@@ -101,6 +101,15 @@ print(eng.stream)
 intren01 = Intern("Rocks",20,6000,"6 Months")
 print(intren01.durationTime)
 
+class ModifiedCar(Car):
+    pass
+        
+        
+
+city = ModifiedCar("Honda","City")
+print(city.model)
+
+
 
 
 
