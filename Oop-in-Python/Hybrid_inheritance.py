@@ -6,3 +6,10 @@ class C(A):
     pass
 class D(B,C):
     pass
+
+# MRO Method
+
+print(D.__mro__)
+
+
+
