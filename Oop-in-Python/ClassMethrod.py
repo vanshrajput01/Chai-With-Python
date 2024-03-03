@@ -17,13 +17,14 @@ class Person:
 p1 = Person("Jack","Pearo","male")
 p2 = Person("Jackey","chain","male")
 p3 = Person("raso","mile","Female")
-print(p1.hair_color)
-print(p2.hair_color)
-print(p3.hair_color)
-Person.class_method()
+# print(p1.hair_color)
+# print(p2.hair_color)
+# print(p3.hair_color)
+# Person.class_method()
 
- # class methrod called
-print(p1.hair_color)
-print(p2.hair_color)
-print(p3.hair_color)
+#  # class methrod called
+# print(p1.hair_color)
+# print(p2.hair_color)
+# print(p3.hair_color)
+
     
