@@ -23,3 +23,19 @@ def random_func():
     print(f"I am example od random function in Python.")
 
 random_func()
+
+# Method Overriding in Python
+
+class UpperClass:
+    def printname(self):
+        pass
+
+
+class BaseClass(UpperClass):
+    def printname(self, name): # Method overriding in Python. 
+        print(f"I hope Your enter name is {name}")
+
+u1 = UpperClass()
+u1.printname()
+b1 = BaseClass()
+b1.printname("Rohan")
