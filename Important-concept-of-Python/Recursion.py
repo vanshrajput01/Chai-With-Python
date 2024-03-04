@@ -44,8 +44,33 @@ def power_number(a,b):
         return 1
     return a * power_number(a,b-1)
 
-print(f"the Power of {power_number(2,3)}")
-print(f"the Power of {power_number(5,5)}")
+# print(f"the Power of {power_number(2,3)}")
+# print(f"the Power of {power_number(5,5)}")
+
+# sum of numbers using Recursion in Python.
+
+def sum_func(num):
+    if num == 0:
+        return 0
+    return num + sum_func(num-1)
+
+# print(sum_func(5)) 
+
+# Fibonacci Sequence
+
+def fibonacci_sequence(num):
+    if num == 1:
+        return 0
+    elif num == 2:
+        return 1
+    else:
+        return (fibonacci_sequence(num -1) + fibonacci_sequence(num - 2))
+
+
+    
+n = int(input("Enter a number : "))
+for i in range(1,n+1):
+    print(fibonacci_sequence(i))
 
 
 
