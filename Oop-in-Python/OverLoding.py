@@ -19,3 +19,15 @@ def add(*args):
 add(1,2,3,4)  # Over loded function
 add(2,3)
 add()
+
+
+# Method over loding in python.
+
+class A:
+    def __init__(self,name = None):
+        if name != None:
+            print(f"Hello ! {name}")
+        else:
+            print("Hello ! ")
+
+a = A()
