@@ -7,6 +7,7 @@
 #     f = open(file_name,"r")
 #     data = f.read()
 #     print(f"Your file data is : \n{data}")
+#     f.close()
 
 # except:
 #     print(f"ERROR  : File is not found.")
