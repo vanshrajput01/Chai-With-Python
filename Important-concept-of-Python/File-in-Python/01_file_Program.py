@@ -6,10 +6,10 @@ try:
     file_name = input("Enter your file name : ")
     f = open(file_name,"r")
     data = f.read()
-    print(f"Your file data is {data}")
+    print(f"Your file data is : \n{data}")
 
-except Exception as e:
-    print(f"ERROR : {e}")
+except:
+    print(f"ERROR  : File is not found.")
 finally:
     print("Your Program run success Fully.")
 
