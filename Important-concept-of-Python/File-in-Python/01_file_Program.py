@@ -38,10 +38,14 @@
 
 # w+ mode in file : Read & write
 
-f = open("04_sample_File.txt","w+") # that mode delete all file data.
-f.write("Modified file.")
-print(f.read()) 
-f.close()
+# f = open("04_sample_File.txt","w+") # that mode delete all file data.
+# f.write("Modified file.")
+# print(f.read()) # not print anything.
+# f.close()
+
+# a+ mode in python : Read & write
+
+
 
 
 
