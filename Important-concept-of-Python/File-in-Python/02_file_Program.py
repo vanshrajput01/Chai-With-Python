@@ -7,5 +7,6 @@ with open("demo.txt","r") as f:
     
 import os
 
-os.remove("")
+os.remove("demo.py") # 
+
     
