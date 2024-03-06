@@ -25,6 +25,16 @@ print(new_data)
 with open("demo.txt","w") as f:
     f.write(new_data)
 
+# searching data in existing file.
+
+with open("demo.txt","r") as f:
+    data = f.read()
+    if data.find("learning") != -1:
+        print("Yes, learning is found !")
+    else:
+        print("No, learning is not found")
+
+
 
 
 
