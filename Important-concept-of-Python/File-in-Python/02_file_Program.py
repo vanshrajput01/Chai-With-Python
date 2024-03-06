@@ -7,6 +7,10 @@ with open("demo.txt","r") as f:
     
 import os
 
-os.remove("demo.py") # 
+# os.remove("demo.py") # delete file
+
+# rename function use to rename exits file name.
+
+os.rename("demo.txt","06_sample_File.txt")
 
     
