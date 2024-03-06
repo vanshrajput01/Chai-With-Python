@@ -3,4 +3,9 @@
 with open("demo.txt","r") as f:
     print(f.read())
 
-# How 
+# How to delete exist file in python
+    
+import os
+
+os.remove("")
+    
