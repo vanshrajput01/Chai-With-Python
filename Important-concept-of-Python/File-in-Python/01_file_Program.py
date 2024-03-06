@@ -16,10 +16,22 @@
 
 # write the File using Python
 # w this mode overwrite the file....
-f = open("02_sample_File.txt","w")
-f.write("This is Modified File using w mode.")
-print("File write Success Fully.")
+# f = open("02_sample_File.txt","w")
+# f.write("This is Modified File using w mode.")
+# print("File write Success Fully.")
+# f.close()
+
+# write the File using Python
+# a this mode not overwrite the file....
+f = open("02_sample_File.txt","a")
+f.write("This file is also text file.")
+print("File write success Fully.")
 f.close()
+print("File close success Fully.")
+
+
+
+
 
 
 

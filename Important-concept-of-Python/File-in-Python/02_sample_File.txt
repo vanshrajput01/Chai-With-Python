@@ -1,1 +1,1 @@
-This is Modified File using w mode.
+This is Modified File using w mode.This file is also text file.This file is also text file.
