@@ -31,12 +31,17 @@
 
 # r+ mode in file : Read & Write
 
-f = open("03_sample_File.txt","r+")
-f.write("abd file") # Over write and add data from begin
-print(f.read()) # in this mode complete data is not printed of the file.
-f.close()
+# f = open("03_sample_File.txt","r+")
+# f.write("abd file") # Over write and add data from begin
+# print(f.read()) # in this mode complete data is not printed of the file.
+# f.close()
 
 # w+ mode in file : Read & write
+
+f = open("04_sample_File.txt","w+") # that mode delete all file data.
+f.write("Modified file.")
+print(f.read()) 
+f.close()
 
 
 
