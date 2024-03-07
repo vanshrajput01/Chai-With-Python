@@ -29,7 +29,16 @@ def add_video(videos):
     save_data_helper(videos)
 
 def update_video(videos):
-    pass
+    list_all_videos(videos)
+    index = int(input("Enter the video number to be update."))
+    if index <= 1 < len(videos):
+            name = input("Enter youtube video name : ")
+            time = input("Enter video duration : ")
+            del videos[index - 1]
+            save_data_helper(videos)
+            print("Video Success Fully Update!!")
+    else:
+        print("You Enter invalid video number.")   
 
 def delete_video(videos):
     pass
