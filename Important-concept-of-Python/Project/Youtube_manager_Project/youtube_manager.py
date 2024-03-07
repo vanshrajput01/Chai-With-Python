@@ -13,10 +13,20 @@ def save_data_helper(videos):
         json.dump(videos,f) # data, file name
 
 def list_all_videos(videos):
-    pass
+    print("\n")
+    print("*" * 70)
+    for index,video in enumerate(videos,start=1):
+        print(f"{index}.video : {video["name"]} , Duration : {video["time"]} ")
+
+    print("\n")
+    print("*" * 70)
+
 
 def add_video(videos):
-    pass
+    name = input("Enter youtube video name : ")
+    time = input("Enter video duration : ")
+    videos.append({"name" : name, "time" : time})
+    save_data_helper(videos)
 
 def update_video(videos):
     pass
