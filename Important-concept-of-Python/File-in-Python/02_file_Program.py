@@ -17,22 +17,35 @@ import os
 
 # Replace data of file
 
-with open("demo.txt","r") as f:
-    data = f.read()
-new_data = data.replace("Java","Python")
-print(new_data)
+# with open("demo.txt","r") as f:
+#     data = f.read()
+# new_data = data.replace("Java","Python")
+# print(new_data)
 
-with open("demo.txt","w") as f:
-    f.write(new_data)
+# with open("demo.txt","w") as f:
+#     f.write(new_data)
 
 # searching data in existing file.
 
-with open("demo.txt","r") as f:
+# with open("demo.txt","r") as f:
+#     data = f.read()
+#     if data.find("learning") != -1:
+#         print("Yes, learning is found !")
+#     else:
+#         print("No, learning is not found")
+
+
+with open("number.txt","r") as f:
     data = f.read()
-    if data.find("learning") != -1:
-        print("Yes, learning is found !")
-    else:
-        print("No, learning is not found")
+    new_data = data.split(',')
+    count_even = 0
+    for i in new_data:
+        if int(i) % 2 == 0:
+            count_even += 1
+    print(count_even)
+        
+    
+
 
 
 
