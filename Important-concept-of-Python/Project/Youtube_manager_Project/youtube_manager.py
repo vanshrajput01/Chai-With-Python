@@ -30,11 +30,12 @@ def add_video(videos):
 
 def update_video(videos):
     list_all_videos(videos)
-    index = int(input("Enter the video number to be update."))
-    if index <= 1 < len(videos):
+    print(len(videos))
+    index = int(input("Enter the video number to be update: " ))
+    if 1 <= index <= len(videos):
             name = input("Enter youtube video name : ")
             time = input("Enter video duration : ")
-            del videos[index - 1]
+            videos[index - 1] = {'name' : name , "time" : time}
             save_data_helper(videos)
             print("Video Success Fully Update!!")
     else:
